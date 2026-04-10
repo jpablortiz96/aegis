@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.coverage
+venv/
+.venv/
+env/
+
+# Environment — never commit secrets
+.env
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploads — keep directory, ignore contents
+data/uploads/*
+!data/uploads/.gitkeep
+data/db/*
+!data/db/.gitkeep
+
+# Node / Frontend
+node_modules/
+dist/
+build/
+.vite/
+frontend/dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docs screenshots (placeholders — add real ones manually)
+docs/*.png
+docs/*.jpg
